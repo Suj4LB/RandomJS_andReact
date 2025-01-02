@@ -9,3 +9,6 @@ const person = {
 // person.height = 21;
 
 console.log(person.height);
+
+
+const person2 = {...person, name: "GoluDon"};             // use of spread operator {...} (copies everything as it is).
