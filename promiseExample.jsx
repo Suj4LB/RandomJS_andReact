@@ -19,3 +19,22 @@ newEvent
 .finally(() => {
     console.log("Promise finished !");       // Finally is executed no matter what happens 
 })
+
+
+// Below is a real life example of promises in fetching data from an API - 
+const axios = require("axios");
+const returnedData = axios.get("https://cat-fact.herokuapp.com/facts");
+
+returnedData.then((res) => {
+
+    console.log(res);
+
+})
+.catch((err) => {
+
+    console.log(err);
+
+})
+.finally(() => {
+    console.log(" \n API fetched !")
+});
