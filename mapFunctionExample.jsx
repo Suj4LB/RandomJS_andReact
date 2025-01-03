@@ -5,7 +5,7 @@ arr.map((arr) =>{
     console.log(arr);      //prints the elements of the array (1 ,2 and 3 in this case)
 });
 
-let newArr =arr.map(() =>{
+let newArr = arr.map(() =>{
     return 5;           // map returns a new array and modifies the elements from the original array
 });
 console.log(newArr);
