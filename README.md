@@ -1,1 +1,1 @@
-# RandomJS_andReact
+# JS and React notes for myself.
