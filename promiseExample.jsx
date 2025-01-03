@@ -16,3 +16,6 @@ newEvent
 .catch((err) => {
     console.log(err);
 })
+.finally(() => {
+    console.log("Promise finished !");       // Finally is executed no matter what happens 
+})
