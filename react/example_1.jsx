@@ -2,7 +2,7 @@ This is to demonstrate how react makes code easier and readable by merging HTMl 
 
 import './App.css';
 
-function App() {
+function App() {                              // This is called a component, a function which returns embedded HTML or UI stuff, unlike JS functions which return primitive data types or maybe noting at all
   const name = <h1>Sujal</h1>;
   const age = <h1>21</h1>;
   const email = <h1>sujal@sujal.com</h1>;
